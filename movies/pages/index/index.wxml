@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<swiper autoplay="true" indicator-dots="true" interval="3000">
+  <swiper-item wx:for="{{dinnerList}}">
+    <image src="{{ item }}" />
+  </swiper-item>
+</swiper>
+
+<view wx:for="{{movieList}}" class="movie-list">
+  <image src="{{ item.image }}"/>
+
+  <text class="movie-title">{{item.title}}\n</text>
+  <text class="movie-subtitle">{{item.subTitle}}\n</text>
+  <text class="movie-actor">{{item.actor}}</text>
+  <view class="movie-action">
+    <text>{{item.score}}</text>
+    <button>{{item.action}}</button>
+  </view>
+    
+</view>

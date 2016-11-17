@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/explore/explore",
+    "pages/Lboard/Lboard",
+    "pages/mi/mi"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":"true",
+    "backgroundColor":"#ddd"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "img/home.png",
+      "selectedIconPath": "img/home_active.png"
+    },
+    {
+      "pagePath": "pages/explore/explore",
+      "iconPath": "img/explore.png",
+      "selectedIconPath": "img/explore_active.png"
+    },
+    {
+      "pagePath": "pages/Lboard/Lboard",
+      "iconPath": "img/Lboard.png",
+      "selectedIconPath": "img/Lboard_active.png"
+    },
+    {
+      "pagePath": "pages/mi/mi",
+      "iconPath": "img/mi.png",
+      "selectedIconPath": "img/mi.png"
+    }
+    ]
+  }
+}

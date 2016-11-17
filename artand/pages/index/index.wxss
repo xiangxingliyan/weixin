@@ -1,0 +1,152 @@
+/**index.wxss**/
+
+.header{
+  width: 100%;
+  height: 440px;
+ background: url(../../img/Group3.jpg) no-repeat center;
+ position: relative;
+}
+.banner{
+  width: 100%;
+  height: 440px;
+  background: rgba(0,0,0,0.4);
+  position: relative;
+}
+.login_box{
+    position: absolute;
+    top: 22%;
+    bottom: 0;
+    width: 100%;
+}
+.login_content{
+  padding: 0 24px 12px 24px;
+}
+.loginbox{
+    width: 212px;
+    height: 75px;
+    text-align: center;
+    margin: 0 auto;
+    background: url(../../img/logo.png) no-repeat;
+    background-size: 212px 75px;
+    padding-bottom: 50px;
+}
+.login_input{
+  padding: 0 20px;
+}
+.login_input input{
+  height: 26px;
+  padding: 6px 10px;
+  background: #f2f2f2;
+}
+.tel{
+  border-bottom: 1px solid #D9D9D9;
+}
+.phd{
+  font-size: 12px;
+  color: #aaa;
+}
+.btn{
+    background: #000;
+    color: #fff;
+    border-radius: 0;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+.focus {
+    background: #57AD68;
+    border: 1px solid #57AD68;
+}
+.login_link{
+  padding-top: 25px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+.login_link text:first-child{
+  padding-right: 20px;
+}
+/*加载页*/
+.container {
+  background:#f0f0f0;
+}
+.list {
+  margin-bottom:10px;
+  background: #fff;
+}
+.user-info {
+  height:28px;
+  line-height: 28px;
+  overflow:hidden;
+  padding:16px 10px;
+  border-bottom:1px solid #ccc;
+  position: relative;
+}
+icon{
+  position: absolute;
+  top:22px;
+
+}
+.user-name {
+  display: inline-block;
+  color:#000;
+  font-size:14px;
+  line-height: 28px;
+  vertical-align:top;
+  margin-left:10px;
+  margin-right: 5px;
+}
+.user-pic {
+  width:28px;
+  height:28px;
+  border-radius:50%;
+}
+.user-city {
+  color:#9c9c9c;
+  font-size:12px;
+  float:right;
+  background:url(../../img/4.png) no-repeat left center;
+  background-size: 12px;
+  padding-left:18px;
+}
+.list-main {
+  position:relative;
+  padding:5px 0;
+}
+.list-main image{
+  width: 100%;
+}
+.work-detail {
+  position:absolute;
+  bottom:20px;
+  left:10px;
+  right:10px;
+}
+.work-title {
+  font-size:20px;
+  color:#fff;
+  font-weight:500;
+}
+.work-time {
+  font-size:12px;
+  color:#fff;
+  font-weight:400;
+}
+.work-pirce {
+  line-height: 28px;
+  font-size:20px;
+  color:#fff;
+  float:right;
+}
+.work-like {
+  padding:14px 10px;
+  height:32px;
+  line-height: 32px;
+  text-align: center;
+  font-size:14px;
+  color:#D04344;
+}
+.work-like text {
+  background:url(../../img/10.png) no-repeat left center;
+  background-size: 25%;
+  padding-left:20px;
+}

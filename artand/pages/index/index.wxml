@@ -1,0 +1,42 @@
+<!--index.wxml-->
+<view class="header">
+    <view class="banner">
+    </view>
+    <form class="login_box">
+        <view class="login_content">
+                <view class="loginbox"></view>
+                <view class="login_input">
+                    <input type="text" auto-focus bindinput="inputBtn" placeholder="手机号/邮箱" class="tel" placeholder-class="phd" />
+                    <input type="password" bindinput="inputBtn" placeholder="密码"  placeholder-class="phd"></input>
+                    <button form-type="submit" bindtap="btnClick" class="btn {{className}}">登录</button>
+                    <view class="login_link">
+                        <text>更多登录方式</text>
+                        <text>立即注册</text>
+                    </view>
+                </view>
+                
+        </view>
+    </form>
+</view>
+<!--加载页-->
+<view class="container">
+    <view class="list" wx:for="{{hotList}}">
+        <view class="user-info">
+            <image src="http://head.artand.cn/{{item.user.uid}}/{{item.user.version}}/128" class="user-pic" />
+            <text class="user-name">{{item.user.uname}}</text><icon type="success" size="15" color="orange" />
+            <text class="user-city">{{item.user.city}}</text>
+        </view>
+        <view class="list-main">
+        <image src="http://img7.artandus.com/{{item.pic.pid}}" />
+        <view class="work-detail">
+            <text class="work-title">{{item.name}}\n</text>
+            <text class="work-time">{{item.category}}/{{item.size_label}}/{{item.times}}</text>
+            <text class="work-pirce">¥{{item.price}}</text>
+        </view>
+      </view>
+      <view class="work-like">
+        <text>{{ item.num_liked }}次赞</text>
+        
+      </view>
+    </view>
+</view>

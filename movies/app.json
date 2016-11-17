@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/cnema/cnema"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "borderStyle": "white"
+  },
+  "tabBar": {
+    "color": "#dbdbdb",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "text": "电影",
+        "pagePath": "pages/index/index",
+        "iconPath": "img/movie.png",
+        "selectedIconPath": "img/movie-active.png"
+      },
+      {
+        "text": "电影院",
+        "pagePath": "pages/cnema/cnema",
+        "iconPath": "img/cinema.png",
+        "selectedIconPath": "img/cinema-active.png"
+      }
+    ]
+  }
+}

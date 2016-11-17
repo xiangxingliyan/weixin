@@ -1,0 +1,63 @@
+/**index.wxss**/
+image {
+  width:100%;
+}
+
+.movie-list {
+  position:relative;
+  min-height:95px;
+  padding:10px 80px 10px 75px;
+  border-bottom:1px solid #eaeaea;
+}
+.movie-list image {
+  width:65px;
+  height:95px;
+  position:absolute;
+  left:5px;
+  top:10px;
+}
+
+.movie-action {
+  position: absolute;
+  right:5px;
+  top:0;
+  bottom:0;
+  width:50px;
+  text-align: center;
+}
+.movie-title {
+  font-size:14px;
+  color:#333;
+}
+.movie-subtitle {
+  font-size:13px;
+  color:#666;
+  font-weight:bold;
+  line-height: 30px;
+}
+.movie-actor {
+  display: block;
+  color:#999;
+  font-size:13px;
+  width:208px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.movie-action text {
+  color:#cf616a;
+  font-size:13px;
+  display:block;
+  margin-top:15px;
+}
+.movie-action button {
+  color:#29cc6d;
+  border:1px solid #29cc6d;
+  font-size:13px;
+  padding:6px 5px;
+  line-height: 9px;
+  border-radius:2px;
+  position:absolute;
+  right:6px;
+  bottom:10px;
+}
